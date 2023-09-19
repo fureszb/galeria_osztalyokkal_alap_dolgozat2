@@ -30,5 +30,9 @@ $(function () {
         const galeriaKep = new Kartya(elem, index, GALERIA);
     });
 
+    $(window).on("mutat", (event) => {
+        console.log(event.detail);
+    });
+
    
 });
